@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
-public class DateInsert {
+public class PsDateInsert {
 
 	private static final String INSERT_DATE_QUERY = "INSERT INTO PERSON_DETAILS VALUES(PID_SEQ.NEXTVAL,?,?,?,?)";
 
